@@ -1,14 +1,6 @@
 #include <iostream>
 
-void sum(int i, int a);
-
-using namespace std;
-
 int main(){
-    sum(5,3);
+    std::cout << "Hello world" << std::endl;
     return 0;
-}
-
-void sum(int i, int a) {
-    cout <<  i + a;
 }
