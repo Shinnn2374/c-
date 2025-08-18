@@ -1,0 +1,15 @@
+/Users/mihail/Desktop/git/c-/dotnet/bin/Debug/net9.0/dotnet
+/Users/mihail/Desktop/git/c-/dotnet/bin/Debug/net9.0/dotnet.deps.json
+/Users/mihail/Desktop/git/c-/dotnet/bin/Debug/net9.0/dotnet.runtimeconfig.json
+/Users/mihail/Desktop/git/c-/dotnet/bin/Debug/net9.0/dotnet.dll
+/Users/mihail/Desktop/git/c-/dotnet/bin/Debug/net9.0/dotnet.pdb
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.AssemblyInfoInputs.cache
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.AssemblyInfo.cs
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.csproj.CoreCompileInputs.cache
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.sourcelink.json
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.dll
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/refint/dotnet.dll
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.pdb
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/dotnet.genruntimeconfig.cache
+/Users/mihail/Desktop/git/c-/dotnet/obj/Debug/net9.0/ref/dotnet.dll
