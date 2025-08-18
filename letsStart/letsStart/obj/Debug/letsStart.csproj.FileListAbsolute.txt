@@ -1,0 +1,6 @@
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/bin/Debug/letsStart.exe
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/bin/Debug/letsStart.pdb
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/obj/Debug/letsStart.csproj.AssemblyReference.cache
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/obj/Debug/letsStart.csproj.CoreCompileInputs.cache
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/obj/Debug/letsStart.exe
+/Users/mihail/Desktop/git/c-/letsStart/letsStart/obj/Debug/letsStart.pdb
