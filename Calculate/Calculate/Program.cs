@@ -4,6 +4,7 @@ namespace Calculate
     {
         public static void Main(string[] args)
         {
+            Calculate.CalculateMyMoney();
         }
     }
 }
