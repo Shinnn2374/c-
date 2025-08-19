@@ -11,11 +11,11 @@ namespace Calculate
         public static void CalculateMyMoney()
         {
             Console.WriteLine("Напишите свой доход");
-            var add = Console.Read();
+            var add = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Напишите свой расход на машину(топливо,сервис и тд.)");
-            var car = Console.Read();
+            var car = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Напишите свой расход на нужды(еда, одежда и тд.)");
-            var nj = Console.Read();
+            var nj = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Вы смогли получили  - {add}");
             Console.WriteLine($"Вы потратили - {car + nj}");
             Console.WriteLine($"Вы смогли сохранить - {howICanSave(add, car, nj)}");
@@ -33,14 +33,14 @@ namespace Calculate
         {
             int save = add - car - nj;
             int procent = add / 100;
-            return save /  procent;
+            return save / procent;
         }
 
         private static string status(int add, int car, int nj)
         {
             if (howICanSaveInProcent(add, add, nj) <= 40)
             {
-                return "Вы смогли сохранить менее 20% своего дохода. Status - bad :(";
+                return "Вы смогли сохранить менее 40% своего дохода. Status - bad :(";
             }
             else if (howICanSaveInProcent(add, car, nj) > 40 && howICanSaveInProcent(add, car, nj) < 70)
             {

@@ -1,0 +1,6 @@
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/bin/Debug/Calculate.exe
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/bin/Debug/Calculate.pdb
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/obj/Debug/Calculate.csproj.AssemblyReference.cache
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/obj/Debug/Calculate.csproj.CoreCompileInputs.cache
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/obj/Debug/Calculate.exe
+/Users/mihail/Desktop/git/c-/Calculate/Calculate/obj/Debug/Calculate.pdb
