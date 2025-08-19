@@ -16,9 +16,11 @@ namespace Calculate
             var car = Console.Read();
             Console.WriteLine("Напишите свой расход на нужды(еда, одежда и тд.)");
             var nj = Console.Read();
-            Console.WriteLine($"Вы смогли получили  - {add}" + "\n" + "Вы потратили - " + car + nj + "\n"
-                + $"Вы сохранили - {howICanSave(add, car, nj)}" + "\n");
-            
+            Console.WriteLine($"Вы смогли получили  - {add}");
+            Console.WriteLine($"Вы потратили - {car + nj}");
+            Console.WriteLine($"Вы смогли сохранить - {howICanSave(add, car, nj)}");
+            Console.WriteLine($"Вы смогли сохранить в процентах - {howICanSaveInProcent(add, car, nj)}");
+            Console.WriteLine(status(add, car, nj));
         }
 
         private static int howICanSave(int add,int car, int nj)
@@ -27,27 +29,28 @@ namespace Calculate
             return save;
         }
 
-        private int howICanSaveInProcent(int add, int car, int nj)
+        private static int howICanSaveInProcent(int add, int car, int nj)
         {
             int save = add - car - nj;
             int procent = add / 100;
             return save /  procent;
         }
 
-        private void status(int add, int car, int nj)
+        private static string status(int add, int car, int nj)
         {
             if (howICanSaveInProcent(add, add, nj) <= 40)
             {
-                Console.WriteLine("Вы смогли сохранить менее 20% своего дохода. Status - bad :(");
+                return "Вы смогли сохранить менее 20% своего дохода. Status - bad :(";
             }
             else if (howICanSaveInProcent(add, car, nj) > 40 && howICanSaveInProcent(add, car, nj) < 70)
             {
-                Console.WriteLine($"Вы смогли сохранить {howICanSaveInProcent(add, car, nj)} своего дохода. Status - normal :|");
+                return $"Вы смогли сохранить {howICanSaveInProcent(add, car, nj)} своего дохода. Status - normal :|";
             }    
             else if (howICanSaveInProcent(add, add, nj) >= 70)
             {
-                Console.WriteLine($"Вы смогли сохранить {howICanSaveInProcent(add, car, nj)} своего дохода. Status - good :)");
+                return $"Вы смогли сохранить {howICanSaveInProcent(add, car, nj)} своего дохода. Status - good :)";
             }
+            return null;
         }
     }
 }
